@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Electronics Engineering Calculator</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href="css/raleway-font.css" rel="stylesheet" type="text/css">
+
+        <script src="js/react/react.js"></script>
+        <script src="js/react/JSXTransformer.js"></script>
+        
+        <script src="js/enums.js" type="text/javascript" charset="utf-8"></script>
+        
+        <script src="js/mixins.js" type="text/jsx" charset="utf-8"></script>
+
+        <script src="js/resistor.js" type="text/jsx" charset="utf-8"></script>
+        <script src="js/capacitor.js" type="text/jsx" charset="utf-8"></script>
+        <script src="js/charge.js" type="text/jsx" charset="utf-8"></script>
+        
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/skeleton.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="two columns">
+                    <h1>
+                        EEC
+                    </h1>
+                </div>
+                <div class="four columns">
+                    <br>
+                    <strong>E</strong>lectronics <strong>E</strong>ngineering <strong>C</strong>alculator
+                </div>
+                <div class="six columns">
+                    <br>
+                    <strong>Created by Vishnu</strong>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="three columns">
+                    <h3>Resistance</h3>
+                </div>
+                <div class="five columns" id="resistor"></div>
+                <div class="four columns">
+                    <embed id="svg_resistor" type="image/svg+xml" src="svg/resistor.svg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="three columns">
+                    <h3>Capacitance</h3>
+                </div>
+                <div class="five columns" id="capacitor"></div>
+                <div class="four columns">
+                    <embed id="svg_capacitor" type="image/svg+xml" src="svg/capacitor.svg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="three columns">
+                    <h3>Capacitor Charge</h3>
+                </div>
+                <div class="five columns" id="charge"></div>
+                <div class="four columns">
+                    <embed id="svg_charge" type="image/svg+xml" src="svg/charge.svg">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

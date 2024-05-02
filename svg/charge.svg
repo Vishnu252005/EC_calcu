@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+      <g fill="none">
+            <path d="
+                  M 10 47
+                  L 10 20
+                  L 97 20
+                  M 97 30
+                  L 97 10
+                  M 103 10
+                  L 103 30
+                  M 103 20
+                  L 190 20
+                  L 190 80
+                  L 10 80
+                  L 10 52
+                  M 5 52
+                  L 15 52
+                  M 1 47
+                  L 19 47
+                  M 22 40
+                  L 30 40
+                  M 26 36
+                  L 26 44
+            " stroke="black" />
+      </g>
+      <!-- CIRCUIT -->
+      <text x="20" y="70"
+        font-family="Courier"
+        font-size="20">
+            U
+      </text>
+      <text x="95" y="45"
+        font-family="Courier"
+        font-size="20">
+            C
+      </text>
+
+      <!-- INPUT VALUES -->
+      <text x="10" y="120"
+        font-family="Courier"
+        font-size="20">
+            U=
+      </text>
+      <text id="display_value1" x="35" y="120"
+        font-family="Courier"
+        font-size="20">
+            1V
+      </text>
+
+      <text x="10" y="140"
+        font-family="Courier"
+        font-size="20">
+            C=
+      </text>
+      <text id="display_value2" x="35" y="140"
+        font-family="Courier"
+        font-size="20">
+            1F
+      </text>
+
+      <!-- OUTPUT VALUES-->
+
+      <text x="110" y="120"
+        font-family="Courier"
+        font-size="20">
+            Q=
+      </text>
+      <text id="display_value3" x="135" y="120"
+        font-family="Courier"
+        font-size="20">
+            1 C
+      </text>
+
+      <text x="110" y="140"
+        font-family="Courier"
+        font-size="20">
+            E=
+      </text>
+      <text id="display_value4" x="135" y="140"
+        font-family="Courier"
+        font-size="20">
+            0.5 J
+      </text>
+
+</svg>

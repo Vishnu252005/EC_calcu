@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<svg width="350" height="100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 133.33">
+      <defs>
+            <clipPath id="resistor">
+                  <path d="
+                        M 0 50
+                        C 0 50 0 0 75 0
+                        C 125 15 75 0 125 15
+                        L 225 15
+                        C 275 0 225 15 275 0
+                        C 300 0 350 0 350 50
+
+                        C 350 100 275 100 275 100
+                        C 225 85 275 100 225 85
+                        L 125 85
+                        C 75 100 125 85 75 100
+                        C 0 100 0 50 0 50
+                  " stroke="black" fill="#E9B686"/>
+            </clipPath>
+      </defs>
+      <path d="
+            M 0 50
+            C 0 50 0 0 75 0
+            C 125 15 75 0 125 15
+            L 225 15
+            C 275 0 225 15 275 0
+            C 300 0 350 0 350 50
+
+            C 350 100 275 100 275 100
+            C 225 85 275 100 225 85
+            L 125 85
+            C 75 100 125 85 75 100
+            C 0 100 0 50 0 50
+      " stroke="black" fill="#E9B686"/>
+      <rect id="display_ring1" x="100" width="15" height="100" style="fill:black;" clip-path="url(#resistor)"/>
+      <rect id="display_ring2" x="150" width="15" height="100" style="fill:black;" clip-path="url(#resistor)"/>
+      <rect id="display_ring3" x="200" width="15" height="100" style="fill:black;" clip-path="url(#resistor)"/>
+      <rect id="display_ring4" x="275" width="15" height="100" style="fill:brown;" clip-path="url(#resistor)"/>
+</svg>
